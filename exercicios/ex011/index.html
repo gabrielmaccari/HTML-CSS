@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o 
+        tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="pequeno.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="medio.png" type="image/png">
+        <img src="grande.png" alt="fotogrande">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a repoduzir um áudio</p>
+    <audio controls>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio, tente baixá-lo clicando <a href="midia/musica.mp3" download="musica.mp3">AQUI</a></p>
+        <!-- Ele tentará abrir o mp3 primeiro, se falhar, vai abrir o ogg e assim por diante. -->
+    </audio>
+    
+</body>
+</html>

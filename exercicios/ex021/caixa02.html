@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+
+        }
+        article {
+            background-color: lightgray;
+        }
+        aside {
+            background-color: rgb(124, 123, 123);
+        }
+        nav {
+            background-color: rgb(99, 107, 97);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav><a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nam, ex cum voluptas, expedita temporibus libero dolorem doloribus dolore et quam placeat sunt aliquam, suscipit alias. Voluptate quibusdam voluptates magnam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+
+        </section>
+    </main>
+    <footer>
+        <p><i>Site criao por <strong>Gustavo Guanabara</strong> para o <strong>CursoemVideo</strong>.</i></p>
+    </footer>
+</body>
+</html>
